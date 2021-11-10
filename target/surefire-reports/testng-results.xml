@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNg Parallel TutorialsNinja suite" duration-ms="57685" started-at="2021-10-28T12:44:49Z" finished-at="2021-10-28T12:45:46Z">
+    <groups>
+    </groups>
+    <test name="Login test" duration-ms="57685" started-at="2021-10-28T12:44:49Z" finished-at="2021-10-28T12:45:46Z">
+      <class name="com.qa.tutorialsninja.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="setUp" is-config="true" duration-ms="49615" started-at="2021-10-28T12:44:49Z" finished-at="2021-10-28T12:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitleTest()[pri:1, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="getTitleTest" duration-ms="955" started-at="2021-10-28T12:45:39Z" finished-at="2021-10-28T12:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="forgottenPasswordLinkTest()[pri:2, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="forgottenPasswordLinkTest" duration-ms="530" started-at="2021-10-28T12:45:40Z" finished-at="2021-10-28T12:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgottenPasswordLinkTest -->
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="doLoginTest" duration-ms="4712" started-at="2021-10-28T12:45:41Z" finished-at="2021-10-28T12:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="tearDown" is-config="true" duration-ms="1017" started-at="2021-10-28T12:45:45Z" finished-at="2021-10-28T12:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninja.tests.LoginPageTest -->
+    </test> <!-- Login test -->
+  </suite> <!-- TestNg Parallel TutorialsNinja suite -->
+</testng-results>
