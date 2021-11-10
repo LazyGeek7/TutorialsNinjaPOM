@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Parallel TutorialsNinja suite" thread-count="2" parallel="tests">
+
+<listeners>
+		<listener
+			class-name="com.qa.tutorialsninja.testlisteners.ExtentReportListener" />
+			
+			<listener
+			class-name="com.qa.tutorialsninja.testlisteners.TestAllureListener" />
+		
+	</listeners>
+
+
+  <test verbose="4" name="Login test">
+  
+    <classes>
+    
+      <class name="com.qa.tutorialsninja.tests.LoginPageTest"/>
+     
+    </classes>
+  </test> <!-- Default test -->
+  
+  
+  
+  
+  
+  
+</suite> <!-- Default suite -->
