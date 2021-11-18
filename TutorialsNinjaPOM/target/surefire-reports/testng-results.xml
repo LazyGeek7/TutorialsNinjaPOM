@@ -1,33 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNg Parallel TutorialsNinja suite" duration-ms="57685" started-at="2021-10-28T12:44:49Z" finished-at="2021-10-28T12:45:46Z">
+  <suite name="TutorialsNinja Test suite" duration-ms="68565" started-at="2021-11-17T14:54:21Z" finished-at="2021-11-17T14:55:29Z">
     <groups>
     </groups>
-    <test name="Login test" duration-ms="57685" started-at="2021-10-28T12:44:49Z" finished-at="2021-10-28T12:45:46Z">
+    <test name="LoginPage test" duration-ms="68565" started-at="2021-11-17T14:54:21Z" finished-at="2021-11-17T14:55:29Z">
       <class name="com.qa.tutorialsninja.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="setUp" is-config="true" duration-ms="49615" started-at="2021-10-28T12:44:49Z" finished-at="2021-10-28T12:45:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tutorialsninja.tests.LoginPageTest@7a791b66]" name="setUp" is-config="true" duration-ms="60895" started-at="2021-11-17T14:54:21Z" finished-at="2021-11-17T14:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getTitleTest()[pri:1, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="getTitleTest" duration-ms="955" started-at="2021-10-28T12:45:39Z" finished-at="2021-10-28T12:45:40Z">
+        <test-method status="PASS" signature="getTitleTest()[pri:1, instance:com.qa.tutorialsninja.tests.LoginPageTest@7a791b66]" name="getTitleTest" duration-ms="1338" started-at="2021-11-17T14:55:22Z" finished-at="2021-11-17T14:55:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitleTest -->
-        <test-method status="PASS" signature="forgottenPasswordLinkTest()[pri:2, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="forgottenPasswordLinkTest" duration-ms="530" started-at="2021-10-28T12:45:40Z" finished-at="2021-10-28T12:45:41Z">
+        <test-method status="PASS" signature="forgottenPasswordLinkTest()[pri:2, instance:com.qa.tutorialsninja.tests.LoginPageTest@7a791b66]" name="forgottenPasswordLinkTest" duration-ms="508" started-at="2021-11-17T14:55:25Z" finished-at="2021-11-17T14:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgottenPasswordLinkTest -->
-        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="doLoginTest" duration-ms="4712" started-at="2021-10-28T12:45:41Z" finished-at="2021-10-28T12:45:45Z">
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:com.qa.tutorialsninja.tests.LoginPageTest@7a791b66]" name="doLoginTest" duration-ms="1274" started-at="2021-11-17T14:55:25Z" finished-at="2021-11-17T14:55:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tutorialsninja.tests.LoginPageTest@715fb77]" name="tearDown" is-config="true" duration-ms="1017" started-at="2021-10-28T12:45:45Z" finished-at="2021-10-28T12:45:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tutorialsninja.tests.LoginPageTest@7a791b66]" name="tearDown" is-config="true" duration-ms="2832" started-at="2021-11-17T14:55:26Z" finished-at="2021-11-17T14:55:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tutorialsninja.tests.LoginPageTest -->
-    </test> <!-- Login test -->
-  </suite> <!-- TestNg Parallel TutorialsNinja suite -->
+    </test> <!-- LoginPage test -->
+    <test name="AccountsPage test" duration-ms="68565" started-at="2021-11-17T14:54:21Z" finished-at="2021-11-17T14:55:29Z">
+      <class name="com.qa.tutorialsninja.tests.AccountsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tutorialsninja.tests.AccountsPageTest@2bef51f2]" name="setUp" is-config="true" duration-ms="60895" started-at="2021-11-17T14:54:21Z" finished-at="2021-11-17T14:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.qa.tutorialsninja.tests.AccountsPageTest@2bef51f2]" name="doLogin" is-config="true" duration-ms="3725" started-at="2021-11-17T14:55:22Z" finished-at="2021-11-17T14:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="YourStoreLinkTest()[pri:0, instance:com.qa.tutorialsninja.tests.AccountsPageTest@2bef51f2]" name="YourStoreLinkTest" duration-ms="121" started-at="2021-11-17T14:55:26Z" finished-at="2021-11-17T14:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YourStoreLinkTest -->
+        <test-method status="PASS" signature="headerListTest()[pri:0, instance:com.qa.tutorialsninja.tests.AccountsPageTest@2bef51f2]" name="headerListTest" duration-ms="346" started-at="2021-11-17T14:55:26Z" finished-at="2021-11-17T14:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerListTest -->
+        <test-method status="FAIL" signature="productSearchTest()[pri:0, instance:com.qa.tutorialsninja.tests.AccountsPageTest@2bef51f2]" name="productSearchTest" duration-ms="227" started-at="2021-11-17T14:55:26Z" finished-at="2021-11-17T14:55:27Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3AP6MP4', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\Swarsha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d114bffadf9e49464a3f2b6907cef155]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3AP6MP4', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\Swarsha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d114bffadf9e49464a3f2b6907cef155
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at com.qa.tutorialsninja.pages.AccountsPage.productSearch(AccountsPage.java:55)
+at com.qa.tutorialsninja.tests.AccountsPageTest.productSearchTest(AccountsPageTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tutorialsninja.tests.AccountsPageTest@2bef51f2]" name="tearDown" is-config="true" duration-ms="2502" started-at="2021-11-17T14:55:27Z" finished-at="2021-11-17T14:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninja.tests.AccountsPageTest -->
+    </test> <!-- AccountsPage test -->
+  </suite> <!-- TutorialsNinja Test suite -->
 </testng-results>
