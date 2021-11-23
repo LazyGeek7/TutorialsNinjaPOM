@@ -20,6 +20,7 @@ import com.qa.tutorialsninja.utils.OptionsManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BasePage {
+	//This is a base page
 	
 	public WebDriver driver;
 	public Properties prop;
