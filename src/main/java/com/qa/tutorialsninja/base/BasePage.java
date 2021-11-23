@@ -21,6 +21,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BasePage {
 	//This is a base page
+	//This line is added on github directly
 	
 	public WebDriver driver;
 	public Properties prop;
