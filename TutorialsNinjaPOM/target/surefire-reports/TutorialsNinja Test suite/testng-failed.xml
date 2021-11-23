@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TutorialsNinja Test suite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="AccountsPage test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.tutorialsninja.tests.AccountsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="doLogin"/>
+          <include name="productSearchTest"/>
+        </methods>
+      </class> <!-- com.qa.tutorialsninja.tests.AccountsPageTest -->
+    </classes>
+  </test> <!-- AccountsPage test(failed) -->
+</suite> <!-- Failed suite [TutorialsNinja Test suite] -->
