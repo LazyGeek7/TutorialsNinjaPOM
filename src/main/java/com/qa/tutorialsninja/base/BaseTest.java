@@ -14,6 +14,7 @@ import com.qa.tutorialsninja.pages.LoginPage;
 import com.qa.tutorialsninja.pages.RegistrationPage;
 
 public class BaseTest {
+	//This is basetest
 	
 	public BasePage basePage;
 	public Properties prop;
